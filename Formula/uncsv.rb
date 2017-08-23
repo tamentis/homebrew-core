@@ -7,7 +7,7 @@ class Uncsv < Formula
 
   def install
     system "./configure", "--prefix=#{prefix}"
-    system "make", "install"
+    system "make", "all", "install"
   end
 
   test do
