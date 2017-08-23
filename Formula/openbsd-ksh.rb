@@ -6,7 +6,7 @@ class OpenbsdKsh < Formula
   sha256 ""
 
   def install
-    system "./configure"
+    system "./configure", "--prefix=#{prefix}"
     system "make", "install"
   end
 
