@@ -1,9 +1,9 @@
 class Prwd < Formula
   desc "prwd"
   homepage "https://tamentis.com/projects/prwd/"
-  url "https://tamentis.com/projects/prwd/files/prwd-1.9.1.tar.gz"
-  version "1.9.1"
-  sha256 "ee708dfc5eefb8f23f57acfbbd0601b2fd089fcdb8172459fd3222e2a036fbc7"
+  url "https://tamentis.com/projects/prwd/files/prwd-1.9.2.tar.gz"
+  version "1.9.2"
+  sha256 "7ebfb1316c0558c79bce0e6499ce94aeb22d2887f79db8b4ca02f4043eb7450f"
 
   def install
     system "./configure", "--prefix=#{prefix}"
