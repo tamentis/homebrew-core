@@ -5,6 +5,8 @@ class Prwd < Formula
   version "1.9.2"
   sha256 "7ebfb1316c0558c79bce0e6499ce94aeb22d2887f79db8b4ca02f4043eb7450f"
 
+  head "https://github.com/tamentis/prwd.git", branch: "master"
+
   def install
     system "./configure", "--prefix=#{prefix}"
     system "make", "install"

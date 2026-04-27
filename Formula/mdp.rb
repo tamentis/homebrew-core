@@ -5,6 +5,8 @@ class Mdp < Formula
   version "0.7.5"
   sha256 "e6fa117a95ca1c6939766d66ac9c9a1840bf4de1b7180080fc073b04617ed5de"
 
+  head "https://github.com/tamentis/mdp.git", branch: "master"
+
   depends_on "gnupg@1.4" => :recommended
 
   def install

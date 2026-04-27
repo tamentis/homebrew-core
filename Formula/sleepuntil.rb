@@ -5,6 +5,8 @@ class Sleepuntil < Formula
   version "1.1"
   sha256 "108900d1cdaad4f18164053e0b75db341aff10a6b86bd9c3f7f3c76122ce8ca5"
 
+  head "https://github.com/tamentis/sleepuntil.git", branch: "master"
+
   def install
     system "./configure", "--prefix=#{prefix}"
     system "make"

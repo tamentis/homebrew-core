@@ -5,6 +5,8 @@ class OpenbsdKsh < Formula
   version "6.5"
   sha256 ""
 
+  head "https://github.com/tamentis/ksh.git", branch: "master"
+
   def install
     system "./configure", "--prefix=#{prefix}"
     system "make", "install"
